@@ -1,0 +1,480 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	padding:0;
+	width:100%;
+	overflow-x:hidden;
+	background:#b08855;
+	font-family:microsoft yahei;
+	margin: 0 auto;
+}
+
+p, span, ul, li, a, dl, dt, dd, h1, h2, h3, h4 {
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+}
+a img {
+	border:0;
+}
+.warp {
+	width:1000px;
+	margin:0 auto;
+	overflow-x:hidden;
+	height:auto;
+}
+.navs {
+	width:159px;
+	height:373px;
+	padding-top:140px;
+	position:fixed;
+	top:10%;
+	right:20px;
+	z-index:99;
+	display:none;
+}
+.navs li {
+	width:100%;
+	height:52px;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+.navs li a {
+	display:block;
+	line-height:52px;
+}
+.ilvyou_public_footnav {
+	width:100%;
+	height:40px;
+	overflow:hidden;
+	background:#f4f4f4;
+	margin-bottom:15px;
+	margin-top:0;
+}
+.ilvyou_public_footnav ul {
+	width:800px;
+	margin:0 auto
+}
+.ilvyou_public_footnav ul li {
+	float:left;
+	line-height:40px;
+	padding:0 10px
+}
+.ilvyou_public_footnav ul li a {
+	color:#818181;
+	font-size:14px;
+	font-weight:100;
+}
+.ilvyou_public_footnav ul li a:hover, .ilvyou_public_copyright span a:hover {
+	color:#ea5413
+}
+.ilvyou_public_copyright {
+	width:1000px;
+	text-align:center;
+	line-height:22px;
+	margin:0 auto 20px;
+	color:silver
+}
+.ilvyou_public_copyright span {
+	display:block;
+	font-family:Arial, Helvetica, sans-serif, "宋体";
+	font-size:12px;
+	font-weight:100;
+}
+.ilvyou_public_copyright span a {
+	color:silver
+}
+.pagefootheight {
+	height:70px;
+	overflow:hidden;
+	margin-bottom:30px;
+	margin:15px auto 0;
+	width:1000px;
+	font-weight:100;
+}
+.pagefooternew div {
+	margin:0 auto;
+	width:850px
+}
+.pagefooternew p {
+	border:1px solid #d2d2d2;
+	float:left;
+	font-size:12px;
+	height:50px;
+	line-height:20px;
+	margin:6px;
+	padding:0;
+	width:120px;
+	overflow:hidden
+}
+.pagefooternew .fl {
+	float:left;
+	padding:3px
+}
+.pagefooternew .fr {
+	float:right;
+	padding:5px 3px 0;
+	width:72px
+}
+.pagefooternew a {
+	text-decoration:none;
+	color:#777;
+	font-weight:100;
+}
+/* 导航 */	
+
+.navbar {
+	width:100%;
+	height:52px;
+	background:#af8856;
+}
+.navbar .warp {
+	width:1000px;
+	margin:0 auto;
+	height:auto;
+}
+.navbar .logo {
+	height:52px;
+	float:left;
+	overflow:hidden;
+	margin:0;
+}
+.navbar .menus {
+	height:52px;
+	float:right;
+	margin-right: 5px;
+}
+.navbar .menus li {
+	height:55px;
+	float:left;
+	text-align:right;
+	margin-left:20px;
+	margin-top: -3px;
+}
+.navbar .menus li a {
+	line-height:60px;
+	font-size:13px;
+	color:#fff;
+}
+.navbar .menus li a:hover {
+	text-decoration: underline;
+}
+.navbar .menus .loginreg {
+	color:#fff;
+	margin-left:20px;
+	position: relative;
+}
+.navbar .menus .loginreg .guanzhu {
+	width:77px;
+	height:20px;
+	overflow:hidden;
+	background: url(http://www.iloyo.net/activitycommres/imgs/guanzhu.png) 0px -2px no-repeat;
+	display: inline-block;
+	margin-bottom: -5px;
+	margin-right: 5px;
+	font-size: 13px;
+	font-family: microsoft yahei;
+	margin-top: 21px;
+	padding:0px 0px;
+}
+.navbar .menus .loginreg .guanzhu:hover {
+	color:#000;
+	background-color:#fff;
+}
+.logregbody {
+	width:77px;
+	height: 55px;
+	padding: 0 5px;
+	overflow: hidden;
+	float: left;
+	cursor:pointer;
+}
+.attentionbox_act {
+	position: absolute;
+	width: 270px;
+	height: 160px;
+	right: 5px;
+	background: #fff;
+	top:55px;
+}
+.attentionbox {
+	width: 87px;
+	height: 155px;
+	position: absolute;
+	top: 55px;
+	right: 5px;
+	background: #FFF;
+	z-index: 99;
+	display:none;
+}
+.attentionwechat {
+	float: left;
+	width: 115px;
+	height: 155px;
+	display:none;
+}
+.attentionwechat  p {
+	width: 100%;
+	float: left;
+	text-align: center;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #555555;
+	margin-top: 15px;
+	margin-bottom: 12px;
+}
+.navbar .menus li a.attention {
+	color:#555555;
+	line-height: 20px;
+	text-align: center;
+}
+.attentionwechat p span {
+	margin-left: 13px;
+	float: left;
+}
+.foot1rightimg2 {
+	width: 22px;
+	height: 22px;
+	background: url(http://www.iloyo.net/contentv1/imgs/allbg.png);
+	background-position: -363px -19px;
+}
+.ml10 {
+	margin-left: 5px;
+}
+.attentionsina {
+	float: left;
+	width: 115px;
+	height: 155px;
+	display:none;
+}
+.attentionsina p {
+	width: 100%;
+	float: left;
+	text-align: center;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #555555;
+	margin-top: 15px;
+	margin-bottom: 12px;
+}
+.attentionsina p span {
+	margin-left: 13px;
+	float: left;
+}
+.attentionboxright {
+	float: right;
+	width: 72px;
+	height: 110px;
+}
+.attentionboxright a {
+	float: left;
+	display: block;
+	width: 100%;
+	height: 20px;
+	color: #8f8f8f;
+	font-size: 13px;
+	margin-top: 5px;
+}
+.foot1rightimg1 {
+	width:25px;
+	height:21px;
+	background: url(http://www.iloyo.net/contentv1/imgs/allbg.png);
+	background-position:-330px -22px;
+	display: block;
+	float: left;
+	margin-left: 2px;
+}
+.foot1rightimg2 {
+	width:22px;
+	height:22px;
+	background: url(http://www.iloyo.net/contentv1/imgs/allbg.png);
+	background-position:-363px -19px;
+	display: block;
+	float: left;
+	margin-left: 2px;
+}
+.attentionboxright {
+	float: right;
+	width: 83px;
+	height: 110px;
+	margin-top: -10px;
+}
+.attentionboxright  a {
+	float: left;
+	display: block;
+	width: 100%;
+	height: 20px;
+	color: #8f8f8f;
+	font-size: 13px;
+	margin-top: 5px;
+}
+.attentionboxright a:hover {
+	color:#ff7500;
+	text-decoration:underline;
+}
+.navbar .menus li a.attention:hover {
+	color:#ff7500;
+	text-decoration:underline;
+}
+.ml10 {
+	margin-left: 10px;
+}
+.gang_l, .gang_r {
+	color:#fff;
+	float: left;
+	line-height: 60px;
+}
+.gang_r {
+	float: right;
+}
+.flo{
+	position: relative;
+	float: left;
+}
+.fro{
+	position: relative;
+	float: right;
+}
+/*中间*/
+.banner{
+	width: 100%;
+	height: 787px;
+    background:url(../images/banner.jpg) no-repeat center #b08855;	
+}
+.floor1{
+	width: 100%;
+	height: 923px;
+	float: left;
+	background:url(../images/hyun1.png) no-repeat right bottom #b08855 
+}
+.floor1 .flcon{
+	margin-top: -170px;
+    width: 1105px;
+    height: 923px;
+    left: 50%;
+    margin-left: -552px;
+    position: relative;
+    float: left;
+    background: url(../images/bg1.png) no-repeat center;   
+}
+.floor1 .flcon ul{
+	margin-left: -10px;
+}
+.floor2{
+	width: 100%;
+	height: 1200px;
+	float: left;
+	background: url(../images/hyun2.png) no-repeat left center #b08855  
+}
+
+.floor2 .flcon{
+	margin-top: -205px;
+    width: 978px;
+    height: 1200px;
+    left: 50%;
+    margin-left: -489px;
+    position: relative;
+    float: left;
+    background: url(../images/bg2.png) no-repeat center;   
+}
+.floor2 .flcon ul{
+	margin-top: 20px;
+}
+.floor3{
+	margin-top: -20px;
+	width: 100%;
+	height: 850px;
+	float: left;
+	background:#b08855 
+}
+.floor3 .flcon{
+	margin-top: -220px;
+    width: 978px;
+    height: 940px;
+    left: 50%;
+    margin-left: -489px;
+    position: relative;
+    float: left;
+    background: url(../images/bg3.png) no-repeat center;   
+}
+.flower1{	
+	margin-left: 230px;
+	width: 323px;
+	height: 203px;
+	position: relative;
+	float: left;
+	background: url(../images/flower1.png) no-repeat center;
+	z-index: 100
+}
+.yun1{	
+	margin-left: 170px;
+	position: relative;
+	float: left;
+	width: 381px;
+	height: 161px;
+	background: url(../images/yun1.png) no-repeat center;
+}
+.flower2{
+	position:absolute;
+	float: left;
+	right: 10px;
+    margin-top: 155px;
+	width: 292px;
+	height: 649px;
+	background: url(../images/flower2.png) no-repeat center;
+}
+.yun2{
+	margin-top: 995px;
+	right: 210px;
+	position: absolute;
+	float: left;
+	width: 428px;
+	height: 171px;
+	background: url(../images/yun2.png) no-repeat center;
+}
+.yun3{
+    margin-top: 488px;
+    right: -300px;
+	position: absolute;
+	float: left;
+	width: 289px;
+	height: 221px;
+	background: url(../images/yun3.png) no-repeat center;
+}
+/*img*/
+.flcon ul li{
+	width: 190px;
+	height: 190px;
+	position: relative;
+    float: left;
+    z-index: 1
+}
+
+.flcon ul li img{
+	width: 190px;
+	height: 190px;
+    position: relative;
+    float: left;
+    border-radius: 50%; 
+    -webkit-transition: -webkit-transform .3s linear;
+	-moz-transition: -moz-transform .3s linear;
+	-o-transition: -o-transform .3s linear;
+	transition: transform .3s linear;
+	z-index: 2;	
+}
+.flcon ul li img:hover{	
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1); 
+}
+.floor2 img,
+.floor3 img{
+	width: 170px !important;
+	height: 170px !important;
+}

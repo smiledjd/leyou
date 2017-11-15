@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+	 lazyLoad()
+  $(window).scroll(lazyLoad)
+  function lazyLoad() {
+    var windowTop = $(window).scrollTop()+$(window).height();
+    $('img').each(function (index,ele) {
+        var imgTop = $(ele).offset().top;
+        if (imgTop<=windowTop) {
+            var value = $(ele).attr('_src');
+             $(ele).attr('src',value)
+        }
+    })
+    
+ 
+  }     
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
